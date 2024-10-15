@@ -1,0 +1,324 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+h2{
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+p,span{
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+h3{
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* navbar */
+.family-baker{
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.logo img{
+    width: 200px;
+    
+}
+.logo{
+    width: 30%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+}
+.logo,
+.lists {
+    display: inline-block; 
+    vertical-align: middle;
+}
+.list ul li a{
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.lists {
+    display: inline-block;
+    padding-left: 300px;
+    
+}
+
+.list {
+    display: inline-block; 
+}
+
+.list ul {
+    list-style: none; 
+}
+
+.list a {
+    text-decoration: none; 
+}
+
+.list li {
+    display: inline-block; 
+    
+} 
+.list a{
+    color: white;
+}
+/* end navbar */
+/* writing-Fmily-bakery */
+.writing-Family-bakery{
+    text-align: center;
+    padding-top:200px;
+    padding-bottom: 10px;
+    color: white;
+}
+.writing-Family-bakery span{
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+.writing-Family-bakery p{
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.writing-Family-bakery h1{
+    margin: 0;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 76px;
+}
+.btn-Family-bakery{
+    text-align: center;
+}
+.btn-Family-bakery button{
+    padding: 14px 30px;
+    font-family: "Alegreya", serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+#btn-L a{
+    text-decoration: none;
+    color: white;
+}
+#btn_C a{
+    text-decoration: none;
+    color: white;
+}
+#btn-L{
+    background-color: #A58B5B;
+    margin-right: 8px;
+    border: 2px solid  #A58B5B;
+    border-radius: 5px;
+}
+#btn_C{
+    background-color: rgba(250, 240, 215, 0);
+    border: solid 2px white;
+    border-radius: 5px;
+
+}
+/* end  writing-Fmily-bakery */
+/* who we are */
+.who-we-are{
+    padding: 50px 0 ;
+}
+.image-who-we-are{
+    width: 44%;  
+}
+.text-who-we-are p,.icons-who-we-are span{
+    color: gray;
+}
+
+.image-who-we-are img{
+    width: 100%;  
+}
+.icons-text-container{
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.image-who-we-are,
+.icons-text-container {
+    display: inline-block;
+    vertical-align: top; 
+}
+
+.icons-who-we-are img,
+.icons-who-we-are span {
+    display: inline-block;
+    vertical-align: middle; 
+}
+.icons-who-we-are span {
+
+    padding-left: 10px; 
+}
+.icons-who-we-are {
+    padding-bottom: 20px;   
+}
+.icons-who-we-are img{
+    border: 1px solid rgb(219, 215, 215);
+    border-radius:50% ;
+}
+/* end */
+/* section our location */
+.our-location{
+    background-color: #F8F8F8;
+    padding: 50px 0 ;
+}
+.text-our-location{
+    display: inline-block; 
+    vertical-align: top; 
+    width: 40%;
+    padding: 90px 30px 0px 15px;
+}
+.text-our-location p{
+    color: gray;
+}
+.image-our-location{
+    display: inline-block; 
+    vertical-align: top; 
+    width: 50%;
+    padding:  0px 24px 0 24px;
+}
+.image-our-location img{
+    width: 100%;
+}
+/* end */
+/* section our baking */
+
+.Our_Baking{
+    text-align: center;
+    padding: 50px  0;
+}
+.Our_Baking .container p{
+    padding:0 0 40px 0;
+}
+.Our_Baking p{
+    color: gray;
+}
+.baken-item{
+    width: 30%;
+    float: left;
+    padding: 0 0 0 25px;
+}
+.baken-item img{
+    width: 100%;
+}
+.clr{
+    clear: both;
+}
+/* end */
+
+/* start contact information */
+.contact-information{
+    padding: 50px 0;
+    background-color: #F8F8F8;
+}
+.contact-information p{
+    padding: 0 0 40px 0;
+}
+.leftpart{
+    width: 45%;
+}
+.leftpart p,.leftpart span{
+    color: gray;
+}
+.icon-contact-information{
+    clear: both;
+}
+.icon-contact-information img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.icon-contact-information span{
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon-contact-information img{
+    border-radius: 50%;
+    background-color: #8E7754;
+}
+.map{
+    padding-left: 40px;
+}
+.map,.leftpart{
+    float: left;
+}
+
+/* end contact information */
+
+/* start details */
+.details-web{
+    padding: 50px 0;
+    background-color: #403D38;
+}
+.details-web p{
+    color: gray;
+}
+.About-As h3,.Why-we-are-special h3,
+.Opening-Hours h3,.Contact-Details h3{
+    color: white;
+}
+.About-As,.Why-we-are-special,
+.Opening-Hours,.Contact-Details{
+    width: 20%;
+    padding:0 30px 0 ;
+}
+.About-As,.Why-we-are-special,
+.Opening-Hours,.Contact-Details{
+    float: left;    
+}
+.icon-Why-we-are-special,
+.icon-Opening-Hours,
+.icon-cotact-details{
+    clear: both;
+}
+.icon-Why-we-are-special img,
+.icon-Opening-Hours img,
+.icon-cotact-details img{
+    float: left;
+}
+.About-As p{
+    
+    padding:0 0 50px 0;
+}
+.icon-Why-we-are-special p,.icon-Opening-Hours p{
+    padding-bottom: 20px;
+    border-bottom:1px solid gray ;
+}
+.icon-cotact-details p{
+    padding: 12px 0 20px 0;
+    border-bottom:1px solid gray ;
+}
+/* end details */
+
+/* start footer */
+.footer{
+    background-color: #353330;
+    text-align: center;
+    padding: 50px 0;
+}
+.text-footer p{
+    color: gray;
+    margin: 30px 0 ;
+}
+.icons-footer img{
+    border-radius: 50%;
+    background-color: #403D38;
+    margin-right: 5px;
+}
+/* end footer */
